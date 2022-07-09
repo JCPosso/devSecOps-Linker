@@ -1,3 +1,8 @@
+# Laboratorio Curso de DevSecOps / SRE - Escuela de Verano
+Objetivo: Crear un proyecto de desarrollo de software cuyo producto final sea una implementación del caso de estudio Linker.
+
+
+
 # Linker App
 
 
