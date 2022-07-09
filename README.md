@@ -3,9 +3,6 @@ Objetivo: Crear un proyecto de desarrollo de software cuyo producto final sea un
 
 # Qué hay en el repositorio
 circleci: Aqui se encuentra la configuración para realizar pruebas de código
-app: Acá se encuentra el código fuente de la aplicación linker que se utiliza como caso de estudio para el curso.
-infraestructura: Contiene el código IaC del material del curso.
-slides: Contiene el código fuente del material del curso.
 
 
 # Linker App
