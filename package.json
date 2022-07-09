@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "12.2.1",
@@ -14,7 +17,18 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.19.0",
-    "eslint-config-next": "12.2.1"
-  }
+    "eslint": "^8.19.0",
+    "eslint-config-next": "12.2.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ]
+  },
+  "prettier": {}
 }
